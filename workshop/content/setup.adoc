@@ -133,6 +133,7 @@ this behavior:
 * In the right-hand tab, click on the pod, which will have a name like `cockroach-kafka-eda-fruit-node-664b79b5d6-hv8jx`
 * In the pod details screen, click on the _YAML_ tab
 * Scroll down to the `volumeMounts` section, which will look something like:
+----
 +
 [source,yaml]
 ----
