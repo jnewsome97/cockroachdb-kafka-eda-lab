@@ -115,8 +115,13 @@ the database instance.
 * Hover your mouse over the center of the blue pod ring. You will notice that a
 small arrow appears coming out from the ring after a moment.
 * Click and drag the arrow to the dotted-line box around the database.
-* Please choose a shorter name for the service binding. The default name will be over 32 charcters and will cause an error.
+* Please choose a shorter name for the service binding. The default name will be over 32 charcters and may cause an error.
 * Click the blue _Create_ button to accept the new service binding name.
+
+----
+NOTE: Please do not accept the default service binding name as the name of the service bind should be less that 32 Characters 
+----
+
 [NOTE]
 ====
 A service binding in OpenShift automatically causes a Kubernetes `Secret` to be
